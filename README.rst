@@ -183,6 +183,11 @@ the text given in the address box to the browser's default web search engine.
 In many cases the URL has a special piece of text appended to it to tell the
 search engine that it came from a particular browser's URL bar.
 
+When you type text into your browser's address bar, the browser must evaluate whether the text is a URL or a search query. If the text has a valid URL that includes a protocol and domain name, the browser will attempt to connect to that domain in order to retrieve the relevant web page. If the text is not a valid URL, the browser will read it as a search term and will send the text to the browser's default web search engine. A specific piece of text may be attached to the URL to indicate to the search engine that the text came from the browser's address box. This is known as a "referrer" and is utilized by the search engine to determine where the user is coming from. In addition, the browser may provide other information, such as the browser version and operating system, along with the referrer to assist the search engine in providing the most relevant results. It's important to note that different browsers may read content in the address box differently. Some browsers may attach a search engine URL to the text, while others may run a DNS lookup to see whether the text matches a valid domain name. As a result, when putting text into the address box, it's critical to pay attention to your browser's actions.
+
+
+
+
 Convert non-ASCII Unicode characters in the hostname
 ------------------------------------------------
 
